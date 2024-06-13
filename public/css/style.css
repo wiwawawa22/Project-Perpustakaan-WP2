@@ -1,0 +1,79 @@
+* {
+    font-family: tahoma;
+}
+
+.sampul {
+    width: 70px;
+
+}
+
+.foto {
+    width: 70px;
+
+}
+
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+.card-text{
+    margin-bottom: 5px;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* Navbar */
+.navbar-expand-lg {
+    background-color: #55AD9B;
+
+}
+
+.fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Pastikan itu berada di atas elemen lainnya */
+}
+
+.container > a > b > span {
+    color: #F1F8E8;
+}
+
+/* menambahkan hover pada link yang ada di navbar */
+.navbar-nav .nav-link {
+    color: #F1F8E8; /* Default text color */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000; /* Text color on hover */
+    background-color: #F1F8E8; /* Background color on hover */
+    border-radius: 5px; /* Optional: adds rounded corners on hover */
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+/* daftar komik */
+
+.btn-outline-secondary {
+    background-color: rgb(219, 215, 215);
+    border: grey;
+
+}
+
+/*  detail buku */
+.card-body .link-kembali {
+    text-decoration: none;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* Body */
+
+body {
+    padding-top: 56px; /* Adjust according to the height of the navbar */
+    background-color: #F1F8E8;
+}
