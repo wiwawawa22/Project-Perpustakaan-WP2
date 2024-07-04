@@ -6,12 +6,14 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" href="/">Home</a>
-                <a class="nav-link" href="/pages/about">About me</a>
-                <a class="nav-link" href="/pages/contact">Contact</a>
+                <a class="nav-link" href="/">Home</a>
+                <!-- <a class="nav-link" href="/pages/about">About me</a>
+                <a class="nav-link" href="/pages/contact">Contact</a> -->
                 <a class="nav-link" href="/komik">Buku</a>
                 <a class="nav-link" href="/anggota">Anggota</a>
                 <a class="nav-link" href="/pinjam">Pinjam</a>
+                <a class="nav-link" href="/transaksi">History</a>
+                <a class="nav-link logout-link" href="<?php echo site_url('login/logout')?>" >Logout</a>
             </div>
         </div>
     </div>

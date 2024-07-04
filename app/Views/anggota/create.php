@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-sm-8">
                         <div class="mb-3">
-                            <input type="file" class="form-control <?= ($validation->hasError('foto')) ? 'is-invalid' : ''; ?> " aria-label="file example" id="foto" name="foto" onchange="previewFoto()" >
+                            <input type="file" class="form-control <?= ($validation->hasError('foto')) ? 'is-invalid' : ''; ?> " aria-label="file example" id="foto" name="foto" onchange="previewFoto()">
                             <div id="validationServer03Feedback" class="invalid-feedback">
                                 <?= $validation->getError('foto'); ?>
                             </div>

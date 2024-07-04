@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col">
             <h1 class='mt-2'>Detail Buku</h1>
-            <div class="card mb-3" style="max-width: 580px;">
+            <div class="card mb-3" style="max-width: 710px;">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="/img/<?= $komik['sampul']; ?>" class="img-fluid rounded-start" alt="...">

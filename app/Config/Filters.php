@@ -6,8 +6,7 @@ use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
-use CodeIgniter\Filters\InvalidChars;
-use CodeIgniter\Filters\SecureHeaders;
+
 
 class Filters extends BaseConfig
 {
@@ -22,8 +21,7 @@ class Filters extends BaseConfig
         'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
-        'invalidchars'  => InvalidChars::class,
-        'secureheaders' => SecureHeaders::class,
+        'admin'         => \App\Filters\LoginFilter::class
     ];
 
     /**
@@ -43,7 +41,10 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'secureheaders',
         ],
+
+        
     ];
+    
 
     /**
      * List of filter aliases that works on a
@@ -65,5 +66,7 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        'admin' => ['before' => ['', 'komik', 'anggota', 'transaksi', 'pinjam', 'pages', 'home' ]]
+    ];
 }

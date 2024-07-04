@@ -3,9 +3,9 @@
 
 <div class="container">
     <div class="row">
+        <h1 class="text-center mt-2">Daftar Anggota</h1>
         <div class="col-6">
-            <h1 class="mt-2">Daftar Anggota</h1>
-            <a href="/anggota/create" class="btn btn-primary mb-3">Tambah Anggota</a>
+            <a href="/anggota/create" class="btn btn-primary mb-3">+ Anggota</a>
             <form action="" method="post">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Cari Anggota..." name="keyword">
@@ -47,7 +47,7 @@
                     <?php endforeach; ?>
                 </tbody>
             </table>
-            <?= $pager->links('komik', 'komik_pagination') ?>
+            <?= $pager->links('anggota', 'anggota_pagination') ?>
 
         </div>
     </div>

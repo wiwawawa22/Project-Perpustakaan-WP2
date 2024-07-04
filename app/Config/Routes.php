@@ -32,4 +32,23 @@ $routes->delete('/anggota/(:num)', 'Anggota::delete/$1');
 
 $routes->get('/anggota/(:any)', 'Anggota::detail/$1');
 
+// --------------------------------------------------------------------------------------------------------------------
+
+// Pinjam
+
+$routes->get('/pinjam', 'Pinjam::index');
+
+$routes->get('/pinjam/create', 'Pinjam::create');
+
+$routes->post('/pinjam/save', 'Pinjam::save');
+
+$routes->get('/pinjam/return/(:segment)', 'Pinjam::return/$1');
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// Login
+
+
+
+
 $routes->setAutoRoute(true);

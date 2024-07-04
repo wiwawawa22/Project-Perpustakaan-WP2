@@ -3,9 +3,9 @@
 
 <div class="container">
     <div class="row">
+        <h1 class="text-center mt-2">Daftar Buku</h1>
         <div class="col-6">
-            <h1 class="mt-2">Daftar Buku</h1>
-            <a href="/komik/create" class="btn btn-primary mb-3">Tambah Buku</a>
+            <a href="/komik/create" class="btn btn-primary mb-3">+ Daftar Buku</a>
             <form action="" method="post">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Cari buku..." name="keyword">

@@ -31,6 +31,12 @@
                     </div>
                 </div>
                 <div class="row mb-3">
+                    <label for="tahun" class="col-sm-2 col-form-label">Tahun</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="tahun" name="tahun" value="<?= $komik['tahun']; ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
                     <label for="sampul" class="col-sm-2 col-form-label">Sampul</label>
                     <div class="col-sm-2">
                         <img src="/img/<?= $komik['sampul']; ?>" class="img-thumbnail img-preview">

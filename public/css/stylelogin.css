@@ -1,0 +1,21 @@
+body {
+    background-color: #F1F8E8;
+}
+
+/* card login */
+.card-header {
+    background-color: #55AD9B;
+}
+
+.btn {
+    background-color: #55AD9B;
+    color: aliceblue;
+    
+}
+
+.btn:hover {
+    color: aliceblue; /* Text color on hover */
+    background-color: gray; /* Background color on hover */
+    border-radius: 5px; /* Optional: adds rounded corners on hover */
+}
+

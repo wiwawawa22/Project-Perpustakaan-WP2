@@ -9,6 +9,8 @@ class Anggota extends BaseController
 {
     protected $anggotaModel;
 
+    
+
     public function __construct()
     {
 
@@ -18,7 +20,7 @@ class Anggota extends BaseController
 
     public function index()
     {
-
+        
         // tenary / percabangan
         $currentPage = $this->request->getVar('page_anggota') ? $this->request->getVar('page_anggota') : 1 ;
 

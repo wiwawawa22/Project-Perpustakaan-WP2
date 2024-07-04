@@ -120,6 +120,7 @@ class Komik extends BaseController
             'slug' => $slug,
             'penulis' => $this->request->getVar('penulis'),
             'penerbit' => $this->request->getVar('penerbit'),
+            'tahun' => $this->request->getVar('tahun'),
             'sampul' => $namaSampul // Simpan nama file sampul ke database
         ]);
 
@@ -232,6 +233,7 @@ class Komik extends BaseController
             'slug' => $slug,
             'penulis' => $this->request->getVar('penulis'),
             'penerbit' => $this->request->getVar('penerbit'),
+            'tahun' => $this->request->getVar('tahun'),
             'sampul' => $namaSampul
         ]);
 
